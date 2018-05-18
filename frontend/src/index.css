@@ -1,5 +1,26 @@
+html {
+  font-size: 62.5%; }
+
 body {
-  margin: 0;
-  padding: 0;
+  background: white;
   font-family: sans-serif;
-}
+  color: #333333; }
+
+.sortableTable {
+  display: table;
+  font-size: 1.2rem; }
+  .sortableTable__header {
+    display: table-header-group; }
+  .sortableTable__body {
+    display: table-row-group; }
+  .sortableTable__row {
+    display: table-row; }
+  .sortableTable__cell {
+    display: table-cell;
+    padding: 5px 10px;
+    border: 1px solid #f0f0f0; }
+    .sortableTable__cell:not(:last-child) {
+      border-right: 0; }
+  .sortableTable__cell--header {
+    text-transform: uppercase;
+    font-weight: bold; }
