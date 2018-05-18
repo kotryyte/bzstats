@@ -9,4 +9,4 @@ From directory `frontend`, run `npm start`.
 The project should be served at `http://localhost:3000`
 
 ### SCSS compiler
-Run `npm start watch-css`.
+Run `npm start watch-css`

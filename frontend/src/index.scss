@@ -1,0 +1,43 @@
+$c-black: #333333;
+$c-grey--light: #f0f0f0;
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background:white;
+    font-family: sans-serif;
+    color:$c-black;
+}
+
+.sortableTable {
+    display: table; 
+    font-size: 1.2rem;
+
+    &__header {
+        display: table-header-group;
+    }
+
+    &__body {
+        display: table-row-group;
+    }
+    
+    &__row {
+        display: table-row;
+    }
+
+    &__cell {
+        display: table-cell;
+        padding:5px 10px;
+        border: 1px solid $c-grey--light;
+        &:not(:last-child){
+            border-right:0;
+        }
+    }
+
+    &__cell--header {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
